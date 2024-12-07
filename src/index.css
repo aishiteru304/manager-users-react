@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .customTable .ant-pagination-item-link,
+    .customTable .ant-pagination-item-ellipsis {
+        color: white !important;
+    }
+}
